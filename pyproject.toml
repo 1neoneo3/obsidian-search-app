@@ -1,0 +1,21 @@
+[project]
+name = "obsidian_search_app"
+version = "0.1.0"
+description = "Obsidianノート検索アプリ"
+requires-python = ">=3.9,<3.14"
+
+dependencies = [
+    "numpy>=1.20.0",
+    "sentence-transformers>=3.1.1",
+    "streamlit==1.32.2",
+    "torch>=2.6.0",
+    "transformers==4.38.2",
+    "webdriver-manager>=4.0.0",
+]
+
+[project.scripts]
+obsidian-search = "obsidian_search_app.cli:main"
+
+[build-system]
+requires = ["uv-build"]
+build-backend = "uv_build"
