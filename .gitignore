@@ -46,3 +46,5 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+obsidian_notes_index.npy
+file_content_map.json
